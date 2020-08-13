@@ -1,0 +1,9 @@
+﻿EXE_INC = \
+        -I/usr/local/cuda/include \
+        -Igis
+
+LIB_LIBS = \
+        -L$(FOAM_USER_LIBBIN) \
+        -L/usr/local/cuda/lib64 \
+        -lGIS \
+        -lcudart

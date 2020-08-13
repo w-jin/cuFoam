@@ -1,0 +1,10 @@
+﻿cuFoamBiCG/cuFoamBiCG.C
+cuFoamCG/cuFoamCG.C
+cuFoamJacobi/cuFoamJacobi.C
+cuFoamJMR/cuFoamJMR.C
+cuFoamMRJacobi/cuFoamMRJacobi.C
+cuFoamMR/cuFoamMR.C
+cuFoamMRS/cuFoamMRS.C
+cuFoamRichardson/cuFoamRichardson.C
+
+LIB = $(FOAM_USER_LIBBIN)/libcuFoam
