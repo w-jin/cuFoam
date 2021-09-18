@@ -1,4 +1,4 @@
-﻿## cuFoam
+## cuFoam
 
 `cuFoam`(cuda based linear equations solver for OpenFOAM) 是一个为OpenFOAM编写的线性方程组求解器。在OpenFOAM中，求解微分方程需要求解稀疏线性方程组，稀疏线性方程组一般通过迭代方法求解。本项目基于nvidia的cuda计算平台实现了常见的线性方程组迭代求解方法，并将之集成到OpenFOAM中，为OpenFOAM的计算过程加速。
 
@@ -71,4 +71,8 @@ cuFoamCG可以替换为cuFoamBiCG、cuFoamJacobi等方法，只要迭代方法�
 ## 开发路线
 
 目前已经实现的方法数量有限，以后会添加更多的求解方法，此外，还会考虑加入一些常用的预处理方法，以加快方法的收敛速度。
+
+## 后续
+
+这是一个非常粗糙的版本，实现的方法很少，也不支持多GPU并行计算，请不要将之用于实际项目。由于保密需要，后续版本短期内无法放出，此仓库代码仅作参考。
 
